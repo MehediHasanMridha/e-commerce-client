@@ -1,7 +1,6 @@
 import React from 'react'
 import ProductCard from '../shared/Card'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faSyncAlt } from '@fortawesome/free-solid-svg-icons';
+import { FaSync, FaSyncAlt } from "react-icons/fa";
 
 
 export const HotDeals = () => {
@@ -90,9 +89,9 @@ export const HotDeals = () => {
                     <ProductCard key={index} {...product} />
                 ))}
             </div>
-            <div>
-                <button className="bg-gradient-to-r from-cyan-500 to-blue-500 hover:from-cyan-600 hover:to-blue-600 text-white font-bold py-2 px-4 rounded-full flex items-center">
-                    More Products <FontAwesomeIcon icon={faSyncAlt} className="ml-2" />
+            <div className='pt-16 pb-10 flex justify-center items-center'>
+                <button className="border text-black border-gray-300 gap-4 py-3 px-4 rounded-full flex items-center hover:bg-[#FF6426] hover:border-gray-50 transition duration-300">
+                    More Products <FaSyncAlt className="ml-2" />
                 </button>
             </div>
         </div>
