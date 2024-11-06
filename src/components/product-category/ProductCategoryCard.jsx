@@ -3,7 +3,7 @@ import pic1 from "../../assets/product-category/গৃহস্থালী-প�
 const ProductCategoryCard = () => {
   return (
     <div className="flex justify-center">
-      <div className="grid grid-cols-2 gap-4">
+      <div className="grid grid-cols-2 gap-4 md:grid-cols-3 md:gap-5 lg:grid-cols-6">
         {/* first-card */}
         <div className="flex flex-col gap-1 border-0 rounded-sm mb-2 bg-white shadow-md">
           <div>
