@@ -1,5 +1,8 @@
 import React from 'react'
 import ProductCard from '../shared/Card'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faSyncAlt } from '@fortawesome/free-solid-svg-icons';
+
 
 export const HotDeals = () => {
 
@@ -86,6 +89,11 @@ export const HotDeals = () => {
                 {products.map((product, index) => (
                     <ProductCard key={index} {...product} />
                 ))}
+            </div>
+            <div>
+                <button className="bg-gradient-to-r from-cyan-500 to-blue-500 hover:from-cyan-600 hover:to-blue-600 text-white font-bold py-2 px-4 rounded-full flex items-center">
+                    More Products <FontAwesomeIcon icon={faSyncAlt} className="ml-2" />
+                </button>
             </div>
         </div>
     )
