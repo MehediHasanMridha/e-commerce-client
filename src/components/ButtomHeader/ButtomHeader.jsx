@@ -7,7 +7,7 @@ const ButtomHeader = () => {
                 <div className="flex flex-col md:flex-row md:justify-center md:items-center">
                     <div className="">
                         <details className="dropdown">
-                            <summary className="btn m-1 md:w-60 text-white flex justify-between bg-orange-600"><h1>Categories</h1>   <svg
+                            <summary className="btn m-1 md:w-60 text-white flex rounded-none justify-between bg-orange-600"><h1>Categories</h1>   <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 fill="none"
                                 viewBox="0 0 24 24"
