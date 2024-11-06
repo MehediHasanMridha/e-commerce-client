@@ -1,3 +1,4 @@
+import { BsSearch } from "react-icons/bs";
 
 const NavBar = () => {
     return (
@@ -9,8 +10,11 @@ const NavBar = () => {
                     </button>
                 </div>
                 <div className="flex-none gap-2">
-                    <div className="form-control">
+                    <div className=" flex">
                         <input type="text" placeholder="Search" className="input border-2  border-orange-700 input-bordered w-24 md:w-[500px]" />
+                        <button className="btn md:w-auto bg-orange-500 w-10 btn-primary rounded-none relative -left-1">
+                            <BsSearch />
+                        </button>
                     </div>
                 </div>
                 <div className="indicator">
