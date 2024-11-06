@@ -90,8 +90,8 @@ export const HotDeals = () => {
                 ))}
             </div>
             <div className='pt-16 pb-10 flex justify-center items-center'>
-                <button className="border text-black border-gray-300 gap-4 py-3 px-4 rounded-full flex items-center hover:bg-[#FF6426] hover:border-gray-50 transition duration-300">
-                    More Products <FaSyncAlt className="ml-2" />
+                <button className="border text-black border-gray-300 gap-2 py-3 px-4 rounded-full flex items-center hover:bg-[#FF6426] hover:border-gray-50 transition duration-300">
+                    More Products <FaSync className="ml-2" />
                 </button>
             </div>
         </div>
