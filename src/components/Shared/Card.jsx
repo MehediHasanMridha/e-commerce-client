@@ -4,7 +4,7 @@ const ProductCard = () => {
     return (
         <div className="max-w-xs bg-white border rounded-xs shadow-md">
             <img
-                src="https://new2.codexdigitalagency.com/uploads/products/gallery/wdHKvPyy-5383.jpg"
+                src="https://new2.codexdigitalagency.com/uploads/products/preview/ME3QU8Ce-4079.jpg"
                 alt="Product"
                 className="w-full rounded-t-md"
             />
