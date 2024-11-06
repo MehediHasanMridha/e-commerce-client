@@ -79,7 +79,7 @@ export const HotDeals = () => {
     ];
 
     return (
-        <div className="container mx-auto px-4 py-5">
+        <div className="max-w-6xl mx-auto px-4 py-5">
             <h2 className="text-xl text-[#007CEA] font-bold text-center md:text-start">প্রয়োজনীয় প্রোডাক্ট</h2>
             <hr class="h-px my-4 bg-gray-200 border-0 dark:bg-gray-700"></hr>
             <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
