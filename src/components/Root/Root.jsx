@@ -1,5 +1,11 @@
+import Shop from "../shop";
+
 const Root = () => {
-  return <div className="">Shop Branch</div>;
+  return (
+    <div className="">
+      <Shop />
+    </div>
+  );
 };
 
 export default Root;
