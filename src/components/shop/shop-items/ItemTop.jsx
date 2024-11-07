@@ -3,7 +3,7 @@ import { IoIosArrowDropdown } from "react-icons/io";
 const ItemTop = () => {
   return (
     <div>
-      <div className="flex gap-2 justify-center items-center lg:justify-end lg:pr-4 py-7">
+      <div className="flex gap-2 justify-center items-center md:mt-12 lg:justify-end lg:pr-4 py-7">
         <p className="text-[#007cea] text-xs">Sort by: </p>
 
         <div className="text-xs opacity-50 relative">
