@@ -2,14 +2,14 @@ import { HiArrowLongRight } from "react-icons/hi2";
 
 const SendingMail = () => {
   return (
-    <div className="py-6 lg:w-2/3">
+    <div className="lg:w-2/3">
       {/* heading part of form  */}
-      <div>
-        <h2 className="text-[#007CEA] font-bold">Got Any Questions?</h2>
+      <>
+        <h2 className="text-[#007CEA] font-bold pt-3">Got Any Questions?</h2>
         <p className="text-black text-sm py-4">
           Use the form below to get in touch with the sales team
         </p>
-      </div>
+      </>
 
       <form className="flex gap-5 flex-col">
         {/* name and email here  */}

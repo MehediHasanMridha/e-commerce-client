@@ -2,7 +2,7 @@ import Contact from "../Contact/Contact";
 
 const Root = () => {
   return (
-    <div className="bg-white min-h-screen px-[10%]">
+    <div className="bg-[#F8F8F8] min-h-screen px-[12%]">
       <Contact />
     </div>
     // <div className="bg-[#af6767] min-h-screen">

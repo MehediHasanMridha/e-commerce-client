@@ -4,8 +4,7 @@ import SendingMail from "../SendingMail/SendingMail";
 const Contact = () => {
   return (
     <div className="pt-10 flex flex-col lg:flex-row lg:justify-between">
-      <div className="lg:w-1/3">
-        <hr />
+      <div className="lg:w-96">
         {/* 1st para  */}
         <div className="mb-5">
           <h2 className="text-[#007CEA] font-bold pb-3">Contact Information</h2>
