@@ -1,11 +1,5 @@
-import Header from "../Header";
-
 const Root = () => {
-  return (
-    <div className="bg-[#ffffff] min-h-screen">
-      <Header />
-    </div>
-  );
+  return <div className="bg-[#ffffff] min-h-screen">sdgdf</div>;
 };
 
 export default Root;
