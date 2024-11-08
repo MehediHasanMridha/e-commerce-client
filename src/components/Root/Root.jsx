@@ -1,11 +1,5 @@
-import Shop from "../shop";
-
 const Root = () => {
-  return (
-    <div className="">
-      <Shop />
-    </div>
-  );
+  return <div className="">Product Deatsils Bottom</div>;
 };
 
 export default Root;
