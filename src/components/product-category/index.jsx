@@ -3,9 +3,9 @@ import ProductCategoryTitle from "./ProductCategoryTitle";
 
 const ProductCategory = () => {
   return (
-    <div className="mx-[172px]">
+    <div className="px-2">
       <ProductCategoryTitle />
-      <div className="w-full border mt-4 mb-6"></div>
+      <div className="w-full h-[0.1px] bg-gray-200"></div>
       <ProductCategoryCard />
     </div>
   );
