@@ -1,8 +1,11 @@
+import Footer from "../Foooter/Footer";
+import { HotDeals } from "../HotDeals.jsx/HotDeals";
 
 const Root = () => {
     return (
-        <div className="bg-[#af6767] min-h-screen">
-            <h1 className="text-center font-bold py-20 text-white">Hello i am from root component and the project was initialized successfully.</h1>
+        <div className="min-h-screen py-5 bg-gray-100">
+            <HotDeals />
+            <Footer />
         </div>
     );
 };
